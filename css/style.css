@@ -9,13 +9,16 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f9;
+    /* background-image: url('https://i.pinimg.com/236x/54/c8/77/54c87715239a0ecae5c76df51b22b6d1.jpg'); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
-
 /* Gaya untuk header */
 header {
-    background-color: #007BFF;
+    background-color: #0a0a0a;
     color: white;
     text-align: center;
     padding: 20px;
@@ -24,6 +27,11 @@ header {
 header h1 {
     margin-bottom: 10px;
     font-size: 32px;
+}
+.logo {
+    width: 340px; /* Ukuran logo */
+    height: auto;
+    margin-right: 20px;
 }
 
 header nav {
@@ -52,7 +60,7 @@ main {
 
 /* Gaya untuk link dalam main */
 main a {
-    color: #007BFF;
+    color: #151617;
     text-decoration: none;
     font-weight: bold;
 }
