@@ -11,4 +11,4 @@ CREATE TABLE users_p (
     password VARCHAR(255) NOT NULL
 );
 
-INSERT INTO users (username, password) VALUES ('admin', MD5('admin123'));
+INSERT INTO users_p (username, password) VALUES ('admin', MD5('admin123'));
