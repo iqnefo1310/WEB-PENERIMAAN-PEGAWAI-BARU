@@ -16,7 +16,7 @@
         </nav>
     </header>
     <main>
-        <p>Ini adalah contoh website menggunakan PHP. Silakan login atau daftar untuk mengakses lebih banyak fitur.</p>
+        <p>selamat datang.</p>
     </main>
 </body>
 </html>
