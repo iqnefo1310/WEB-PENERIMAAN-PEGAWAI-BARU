@@ -11,7 +11,8 @@
         <h1>Selamat Datang di Website Kami</h1>
         <nav>
             <a href="login.php">Login</a> | 
-            <a href="register.php">Daftar</a>
+            <a href="register.php">Daftar</a> |
+            <a href="loginAdmin.php">Admin</a>
         </nav>
     </header>
     <main>
