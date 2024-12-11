@@ -6,7 +6,7 @@ if (isset($_POST['login'])) {
     $username = $conn->real_escape_string($_POST['username']);
     $password = $conn->real_escape_string($_POST['password']);
 
-    $query = "SELECT * FROM users WHERE username = '$username' AND password = MD5('$password')";
+    $query = "SELECT * FROM users_p WHERE username = '$username' AND password = MD5('$password')";
     $result = $conn->query($query);
 
     if ($result->num_rows > 0) {

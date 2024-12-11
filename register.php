@@ -5,7 +5,7 @@ if (isset($_POST['register'])) {
     $username = $conn->real_escape_string($_POST['username']);
     $password = $conn->real_escape_string($_POST['password']);
 
-    $query = "INSERT INTO users (username, password) VALUES ('$username', MD5('$password'))";
+    $query = "INSERT INTO users_p (username, password) VALUES ('$username', MD5('$password'))";
     if ($conn->query($query)) {
         echo "<script>alert('Registrasi berhasil! Silakan login.'); window.location='login.php';</script>";
     } else {
