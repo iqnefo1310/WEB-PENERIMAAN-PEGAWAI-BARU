@@ -2,7 +2,7 @@
 CREATE DATABASE penerimaan_db;
 
 -- Gunakan database yang baru dibuat
-USE penerimaan_pegawai_db;
+USE penerimaan_db;
 
 -- Membuat tabel users
 CREATE TABLE users_p (
